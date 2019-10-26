@@ -57,6 +57,10 @@ Copy linux-image-4.4.154-999-rockchip-*_all.deb and linux-firmware-image-4.4.154
 
 Reboot 
 
+### Check the regulatory dBase
+
+`# iw reg get`
+
 ### Enable OCB mode
 
 `# iw dev wlp1s0 set type ocb`<br>
